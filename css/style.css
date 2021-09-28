@@ -1,8 +1,11 @@
-*{
+*
+{
     margin: 0;
     padding: 0;
 }
-body{
+
+body
+{
     height: 100%;
     flex-direction: column;
     display: flex;
@@ -12,95 +15,120 @@ body{
     font-weight: 200;
 }
 
-a{
+a
+{
     color: rgba(32, 33, 41, 0.933); 
     text-decoration: none;
     font-weight: 500;
 }
-.content{
+
+.content
+{
     width: 100%;
 }
+
 .header
 {
     width: 100%;
     height: 150px;
     background-color: rgba(41,42,52, 0.733);
 }
-.header__logo{
+
+.header__logo
+{
     float: left;
     height: 130px;
     width: 180px;
     margin: 10px 10px 0 0;
 
-}.header__text{
+}
+.header__text
+{
     font-size: 20px;
     height: 20px;
     letter-spacing: 3px;
     text-align: center;
-    padding: 40px 0 10px 0;  
+    padding:55px 20px 0 0;  
     font-weight: 400;
     font-family: 'Space Mono', monospace;
 }
 
-.menu{
+.menu
+{
     margin: 15px 15px 30px 15px; 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.menu li{
-    background-color:rgba(85, 82, 105, 0.7) ;
-    width: 100%;
+.menu li
+{
+    background-color:rgba(41,42,52, 0.733) ;
+    width: 20%;
     text-align: center; 
     list-style: none;
     margin-top: 10px; 
     font-size: 25px;
     border: 0.5px solid ;
 }
-.menu a{
+
+.menu a
+{
      display: block; 
      font-family:'Space Mono', monospace;
 }
 
-.container{
+.container
+{
     flex: 1 1 auto;
     font-family: 'Space Mono', monospace;
 }
-.container__flex
+.container__flexbox
 {
     display: flex;
     flex-direction: column;
 }
-.content__body{
-    padding: 10px 10px 10px 30px;
+
+.content__body
+{
+    padding: 15px 10px 10px 40px;
     margin: 15px 15px 0 15px; 
     background-color: rgb(94, 91, 91);
     margin-bottom: 30px;
 }
 
-
-.form{
+.form
+{
     margin: 15px 15px 15px 15px;
     background-color: rgba(94, 91, 91) ;
 }
 
-table{
-    width: 100%;
+table
+{
+    width: 99%;
+    margin-left: 4px;
+    margin-right: 5px;
+    margin-bottom: 5px;
     font-family: 'Space Mono', monospace;;
 }
-.tabl{
+
+.tables
+{
     margin-top: 30px;
     margin-left: 15px;
     margin-right: 15px;
+    margin-bottom: 30px;
     background-color: rgba(94, 91, 91) ;
 }
-table,th,td{
-    border: 1px solid rgb(43, 42, 42);
+
+table,th,td
+{
+    border: 2px solid rgb(43, 42, 42);
     border-color: black;
     text-align: center;
     height:50px;
 }
+
 tr:nth-child(odd)
 {
     background: rgb(155, 153, 153);
@@ -113,31 +141,37 @@ tr:nth-child(even)
     padding: 4px;
 }
 
-footer{
+footer
+{
     margin-top: 20px;
     width: 100%;
     background-color: rgba(41,42,52, 0.733);
     height: 60px;
 }
-.footer__container{
+
+.footer__container
+{
     display: flex; 
     justify-content: center;
     text-align: center;
 }
-.footer__text{
+
+.footer__text
+{
     padding: 10px;
     color: rgb(0, 0, 0);
     font-family: 'Space Mono', monospace;
     letter-spacing: 2px;
 }
+
 @media screen and (min-width: 426px) {
     .menu{
         flex-direction: row;
-        margin: 15px 5px; 
+        margin: 20px 0 0 0; 
 
     }
     .menu li{
-        margin: 10px;
+        margin: 5px 10px;
     }
     .menu a{
         padding:1px;
@@ -146,7 +180,9 @@ footer{
         max-width: 960px;
         margin: 0 auto;
     }
+    table{
+        font-size: 20px;
+    }
 }
-
 
 
