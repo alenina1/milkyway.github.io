@@ -167,15 +167,17 @@ footer
 @media screen and (min-width: 426px) {
     .menu{
         flex-direction: row;
-        margin: 20px 0 0 0; 
-
+        margin: 10px 0 0 0;
     }
     .menu li{
         margin: 5px 10px;
+
     }
-    .menu a{
-        padding:1px;
+    .gamePin{
+        flex-direction:row;
+        margin: 10px 0 0 0;
     }
+    
     .content{
         max-width: 960px;
         margin: 0 auto;
