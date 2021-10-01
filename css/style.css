@@ -118,14 +118,13 @@ a{
     font-family: 'Space Mono', monospace;
     text-decoration: underline;
 }
-.content-of-table{
-    order: 3;
-}
+
 .tables{
     padding: 10px 10px 10px 10px;
     margin: 15px 15px 10px 15px; 
     background-color: rgb(138, 132, 133);
-    margin-bottom: 30px;  
+    margin-bottom: 30px; 
+    order: 3; 
 }
 table{
     width: 100%;
@@ -160,6 +159,7 @@ tbody tr:nth-child(even){
     margin: 15px 15px 10px 15px; 
     background-color: rgb(138, 132, 133);
     margin-bottom: 30px;  
+    order: 2;
 }
 
 #form{
@@ -169,7 +169,6 @@ tbody tr:nth-child(even){
     font-family: 'Space Mono', monospace;
     border:2px solid;
     padding: 10px;
-    order: 2;
 }
 
 .content-of-form input{
@@ -222,11 +221,17 @@ tbody tr:nth-child(even){
     }
     .content-of-table{
         padding:10px;
-        order: 2;
     }
     .content-of-form{
         padding:10px;
+    }
+
+    .form{
         order: 3;
+    }
+
+    .tables{
+        order: 2;
     }
     .header{
         width:auto;
