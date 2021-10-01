@@ -263,4 +263,8 @@ tbody tr:nth-child(even){
         width: 100%;        
     }
 
+    .header__logo{
+        width: 200px;
+    }
+
 }
