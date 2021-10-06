@@ -80,13 +80,11 @@ body{
 }
 
 .container{
-   
     flex: 1 1 auto;
     margin: 10px;
 }
 
-.container-flex
-{
+.container-flex{
     display: flex;
     flex-direction: column;
 }
@@ -124,7 +122,6 @@ a{
     margin: 15px 15px 10px 15px; 
     background-color: rgb(138, 132, 133);
     margin-bottom: 30px; 
-    order: 3; 
 }
 table{
     width: 100%;
@@ -154,12 +151,11 @@ tbody tr:nth-child(even){
     padding-left: 20px;
 }
 
-.form{
+.formes{
     padding: 10px 10px 10px 10px;
     margin: 15px 15px 10px 15px; 
     background-color: rgb(138, 132, 133);
     margin-bottom: 30px;  
-    order: 2;
 }
 
 #form{
@@ -226,12 +222,12 @@ tbody tr:nth-child(even){
         padding:10px;
     }
 
-    .form{
-        order: 3;
+    .formes{
+        order: 2;
     }
 
     .tables{
-        order: 2;
+        order: 3;
     }
     .header{
         width:auto;
@@ -258,6 +254,7 @@ tbody tr:nth-child(even){
         font-size: 20px;
         width: 100%;        
     }
+  
 }
 @media screen and (min-width: 1024px){
     .menu{
@@ -275,5 +272,13 @@ tbody tr:nth-child(even){
     .header__logo{
         width: 200px;
     }
+    
+    .formes{
+        order: 3;
+    }
+
+    .tables{
+        order: 2;
+    } 
 
 }
